@@ -5,7 +5,7 @@ i = 0
 for i in range(n):
   a = int(input())
   wallet.append(a)
-
+# 조금의 변화
 wallet.sort(reverse = True)
 
 while money != 0:
