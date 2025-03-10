@@ -1,11 +1,6 @@
-from gtts import gTTS
-from pydub import AudioSegment
-import random, os
+a = [1,2,3,4,5,6]
 
-os.makedirs('simple',exist_ok = True)
-os.makedirs('result',exist_ok = True)
+a.insert(0,'fe')
+a.insert(3,'gr')
 
-letter = "쌉"
-lang = 'ko'
-tts = gTTS(letter,lang=lang)
-tts.save('sample/s.mp3' % letter)
+print(a)
